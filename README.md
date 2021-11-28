@@ -1,20 +1,18 @@
-CÓDIGO Do MYSQL
+<p align="center">
+      <h2 align="center">CRUD SIMPLES PARA A UNIP</h2>
+<p align="center">
 
-CREATE DATABASE clientes_unip;
-USE clientes_unip;
+<br>
 
-SELECT * FROM pessoas;
-DROP TABLE pessoas;
+## :dart: FUNCIONALIDADES
+      
+ - [x] SALVAR -> É possível salvar informações no banco de dados
+ - [x] EDITAR -> É possível editar um usuário através do id do mesmo
+ - [x] EXCLUIR -> É possível excluir um usuário através do id do mesmo
+ - [x] PESQUISAR -> É possível pesquisar um usuário através do id do mesmo
 
-CREATE TABLE pessoas(
-id int AUTO_INCREMENT PRIMARY KEY,
-nome varchar(255) NOT NULL,
-cpf bigint NOT NULL,
-logradouro varchar(255) NOT NULL,
-numero bigint NOT NULL,
-cep bigint NOT NULL,
-bairro varchar(255) NOT NULL,
-cidade varchar(255) NOT NULL,
-estado varchar(255) NOT NULL,
-telefone bigint NOT NULL
-);
+<div>
+  <h3>TECNOLOGIAS USADAS |
+     <img align="center" alt="MySQL" src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white"/>
+     <img align="center" alt="C#" src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+ </div>
