@@ -1,5 +1,5 @@
 <p align="center">
-      <h2 align="center">CRUD SIMPLES Em C# & MYSQL</h2>
+      <h2 align="center">CRUD SIMPLES EM C# & MYSQL</h2>
 <p align="center">
 
 <br>
